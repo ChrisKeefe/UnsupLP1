@@ -19,7 +19,8 @@ knitr::opts_chunk$set(
 [![Travis build status](https://travis-ci.com/ChrisKeefe/UnsupLP1.svg?branch=master)](https://travis-ci.com/ChrisKeefe/UnsupLP1)
 <!-- badges: end -->
 
-UnsupLP1 is a sample package written for CS599 - Unsupervised Learning, which demonstrates my ability to: 
+UnsupLP1 is a sample package written for CS599 - Unsupervised Learning, which demonstrates my ability to:
+
 - build an R package
 - implement, run, and test functions in R related to Unsupervised Learning
 - set up Travis for CI checks on each commit

@@ -10,10 +10,13 @@ status](https://travis-ci.com/ChrisKeefe/UnsupLP1.svg?branch=master)](https://tr
 <!-- badges: end -->
 
 UnsupLP1 is a sample package written for CS599 - Unsupervised Learning,
-which demonstrates my ability to: - build an R package - implement, run,
-and test functions in R related to Unsupervised Learning - set up Travis
-for CI checks on each commit - Adequately document a package to allow
-reasonable ease of use
+which demonstrates my ability to:
+
+  - build an R package
+  - implement, run, and test functions in R related to Unsupervised
+    Learning
+  - set up Travis for CI checks on each commit
+  - Adequately document a package to allow reasonable ease of use
 
 ## Installation
 
