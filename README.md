@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.com/ChrisKeefe/UnsupLP1.svg?branch=master)](https://travis-ci.com/ChrisKeefe/UnsupLP1)
 <!-- badges: end -->
 
 The goal of UnsupLP1 is to …
