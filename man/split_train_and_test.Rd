@@ -48,6 +48,7 @@ many.seeds$contingency.table
 
 # Pass proportions if you prefer a different split
 eighty.twenty <- split_train_and_test(iris, train.prop=0.8, test.prop=0.2)
+eighty.twenty$contingency.table
 
 # Use `obs` to subset your data while sampling
 subset <- split_train_and_test(iris, obs=100)  ## produces ~50 TRAIN and ~50 TEST observations
