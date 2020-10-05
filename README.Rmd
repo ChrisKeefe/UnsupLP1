@@ -36,10 +36,15 @@ devtools::install_github("ChrisKeefe/UnsupLP1")
 ```
 ## Usage
 
-This is a basic example which shows you how to solve a common problem:
+Here are some basic examples of how to use the functions in this package. For 
+more complete usage information, please see the function documentation.
 
 ```{r example}
 library(UnsupLP1)
 ## basic example code
-print(foober())
+# Cluster the iris data set into three clusters:
+KMEANS(iris[1:4], K=3)
+
+# Split a data matrix into 80% TRAIN and 20% TEST
+split_train_and_test(iris, train.prop=0.8, test.prop=0.2)
 ```

@@ -12,17 +12,13 @@ KMEANS(data_matrix, K)
 \item{K}{A positive integer describing the number of clusters the clustering should produce.}
 }
 \value{
-A list containing the following results:
+A \strong{list} containing the following results:
 
-\code{cluster}: a vector of length N containing the cluster ids of each observation. Cluster ids are positive integers from 1:K inclusive.
-
-\code{centers}: a matrix of cluster centers, with K rows, and M columns.
-
-\code{withinss}: a vector of length K, containing within-cluster sums of squares for each cluster.
-
-\code{tot.withinss}: the total within-cluster sum of squares
-
-\code{size}: a vector of length K, containing the number of points in each cluster.
+\item{\code{cluster}}{a vector of length N containing the cluster ids of each observation. Cluster ids are positive integers from 1:K inclusive.}
+\item{\code{centers}}{a matrix of cluster centers, with K rows, and M columns.}
+\item{\code{withinss}}{a vector of length K, containing within-cluster sums of squares for each cluster.}
+\item{\code{tot.withinss}}{the total within-cluster sum of squares}
+\item{\code{size}}{a vector of length K, containing the number of points in each cluster.}
 }
 \description{
 Generates a K-means clustering of a given feature matrix, with K cluster centers.

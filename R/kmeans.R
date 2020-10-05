@@ -9,14 +9,13 @@
 #' @param data_matrix An N x M matrix, containing N rows (observations) and M columns (data features)
 #' @param K A positive integer describing the number of clusters the clustering should produce.
 #'
-#' @return
-#' A list containing the following results:
+#' @return A **list** containing the following results:
 #'
-#' @return `cluster`: a vector of length N containing the cluster ids of each observation. Cluster ids are positive integers from 1:K inclusive.
-#' @return `centers`: a matrix of cluster centers, with K rows, and M columns.
-#' @return `withinss`: a vector of length K, containing within-cluster sums of squares for each cluster.
-#' @return `tot.withinss`: the total within-cluster sum of squares
-#' @return `size`: a vector of length K, containing the number of points in each cluster.
+#' \item{`cluster`}{a vector of length N containing the cluster ids of each observation. Cluster ids are positive integers from 1:K inclusive.}
+#' \item{`centers`}{a matrix of cluster centers, with K rows, and M columns.}
+#' \item{`withinss`}{a vector of length K, containing within-cluster sums of squares for each cluster.}
+#' \item{`tot.withinss`}{the total within-cluster sum of squares}
+#' \item{`size`}{a vector of length K, containing the number of points in each cluster.}
 #'
 #' @export
 #'

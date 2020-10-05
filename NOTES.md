@@ -12,7 +12,7 @@
 - `library(devtools)` it first
 - `create_package("filepath")` will initialize the package structure. Use once.
 - `use_git()` will initialize a git repo. Use once.
-- `use_r("my_func")` creates a new `.R` file for your function. Use once.
+- `use_r("my_func")` creates a new `.R` file for your function. Use when you create a new function.
 - `use_test()` creates a new test file for the function. Use when you create new function.
 - `load_all()` makes our functions available for testing in the console - in doing so, it simulates building, installing, and attaching the package (and its contents)
 - `check()` runs `R CMD check` from the console, and checks that our package works. Use regularly
